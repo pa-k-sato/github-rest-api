@@ -99,7 +99,7 @@ curl \
     -u ${GITHUB_USER}:${GITHUB_PERSONAL_TOKEN} \
     https://api.github.com/projects/14195572/columns
 
-# リポジトリのマイルストーン一覧、ここで ID を取る必要がある
+# リポジトリのマイルストーン一覧、ここで number を取る必要がある
 curl \
     -H "Accept: application/vnd.github.v3+json" \
     -u ${GITHUB_USER}:${GITHUB_PERSONAL_TOKEN} \
