@@ -31,3 +31,7 @@ export GITHUB_PERSONAL_TOKEN=<your_personal_token>
 curl -u ${GITHUB_USER}:${GITHUB_PERSONAL_TOKEN} https://api.github.com/user
 ```
 
+## 権限
+
+Personal Access Token の権限で　`repo > public repo`しかない状態だとちゃんとプライベートリポジトにはアクセスできなかった  
+一個ずつつけてみたが結局` Full control of private repositories`が必要？
